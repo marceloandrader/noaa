@@ -1,3 +1,4 @@
+require 'libxml'
 module NOAA
   class HttpService #:nodoc:
     def initialize(http = Net::HTTP)
